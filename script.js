@@ -8,18 +8,22 @@ function myFunction() {
 }
 
 // ------------------project--------------------
-const  projectData = [
-  {name:"news website", img:"news.png",discription:"This is a bueatiful responsive resturent wibsite ",link:"https://ruhaid.github.io/ptmkhyber/"},
+const projectData = [
+  {
+    name: "news website",
+    img: "news.png",
+    discription: "This is a bueatiful responsive resturent wibsite ",
+    link: "https://ruhaid.github.io/ptmkhyber/",
+  },
 ];
 let projectDiv = document.getElementById("project");
-projectData.forEach((porject)=>{
-let projectContainer = document.createElement("div");
-projectContainer.classList.add("project");
-projectContainer.innerHTML=`<img src="${porject.img}" alt="">
+projectData.forEach((porject) => {
+  let projectContainer = document.createElement("div");
+  projectContainer.classList.add("project");
+  projectContainer.innerHTML = `<img src="${porject.img}" alt="">
   <h1>${porject.name}</h1>
   <p>${porject.discription}</p>
   <a href="${porject.link}"><button>Porject veiw</button></a>
 `;
-  projectDiv.appendChild(projectContainer)
-})
-
+  projectDiv.appendChild(projectContainer);
+});
