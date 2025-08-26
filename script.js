@@ -15,6 +15,12 @@ const projectData = [
     discription: "This is a bueatiful responsive resturent wibsite ",
     link: "https://ruhaid.github.io/ptmkhyber/",
   },
+  {
+    name:"landing page",
+    img:"new project.png",
+    discription:"this is portfolio website fully responsive",
+    link:"https://ruhaid.github.io/new-portfolio/"
+  }
 ];
 let projectDiv = document.getElementById("project");
 projectData.forEach((porject) => {
