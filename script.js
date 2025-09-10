@@ -20,6 +20,12 @@ const projectData = [
     img:"new project.png",
     discription:"this is portfolio website fully responsive",
     link:"https://ruhaid.github.io/new-portfolio/"
+  },
+  {
+    name:"cars for rant",
+    img:"afridi.png",
+    discription:"this is  car bargin  website where you can buy a cars",
+    link:"https://ruhaid.github.io/cars/"
   }
 ];
 let projectDiv = document.getElementById("project");
